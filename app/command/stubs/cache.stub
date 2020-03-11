@@ -1,0 +1,23 @@
+<?php
+/**
+ * | Author: 张大宝的程序人生
+ * +----------------------------------------------------------------------
+ * | Description: 缓存
+ * +----------------------------------------------------------------------
+ * project {%erpName%}
+ */
+
+namespace app\cache;
+
+use app\library\traits\instanceTrait;
+use think\Cache;
+
+class {%className%} extends Cache
+{
+    use InstanceTrait;
+
+    /**
+     * @var string 缓存标识
+     */
+    const PREFIX = '{%prefixCacheName%}:';
+}
