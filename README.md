@@ -1,4 +1,4 @@
-shier-erp
+xinErp
 ===============
 > 十贰-ERP
 
@@ -22,7 +22,7 @@ shier-erp
 ## 安装
 - Git 拉取代码
 ~~~
-git clone git@github.com:dashingunique/shier-erp.git
+git clone git@github.com:dashingunique/xinErp.git
 ~~~
 - composer 安装拓展
 ~~~
@@ -33,7 +33,7 @@ composer install
 composer update
 ~~~
 ## 拓展包
-> shier-erp 所有拓展
+> xinErp 所有拓展
 ~~~
         "topthink/framework": "6.0.*-dev",
         "topthink/think-orm": "2.0.*-dev",
@@ -78,18 +78,18 @@ composer update
     ...
     
 ~~~
-- shier-erp自定义命令
+- xinErp自定义命令
 ~~~
-    shier-erp新增自动生成logic逻辑处理层，此文件用于处理数据处理逻辑相关：
+    xinErp新增自动生成logic逻辑处理层，此文件用于处理数据处理逻辑相关：
     自动生成命令：php think make:logic userLogic 
     
     格式放在app/command/stubs的logic.stub文件中，格式可自定义
 ~~~
 - 架构：
-#### shier-erp采用thinkPHP6为内核，继承thinkPHP6的优良性能的同时更加注重代码的简单明了于注释清晰，
-力求让每个人都能看懂shier-erp，路由方面采用think-annotation，文档可参考：[tp6完全开发手册](https://www.kancloud.cn/manual/thinkphp6_0/content)
+#### xinErp采用thinkPHP6为内核，继承thinkPHP6的优良性能的同时更加注重代码的简单明了于注释清晰，
+力求让每个人都能看懂xinErp，路由方面采用think-annotation，文档可参考：[tp6完全开发手册](https://www.kancloud.cn/manual/thinkphp6_0/content)
 
-#### shier-erp集成多端接口，仅需一步让不同接口赋予全部权限：
+#### xinErp集成多端接口，仅需一步让不同接口赋予全部权限：
 ~~~
 controller 继承 app\controller\Base
 
@@ -120,10 +120,10 @@ checkAuthority方法
 
 ## 版权信息
 
-shier-erp 遵循Apache2开源协议发布，并提供免费使用。
+xinErp 遵循Apache2开源协议发布，并提供免费使用。
 
 All rights reserved。
 
-shier-erp® 商标和著作权所有者为”张大宝的程序人生（1107842285@qq.com）“所有
+xinErp® 商标和著作权所有者为”张大宝的程序人生（1107842285@qq.com）“所有
 
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
